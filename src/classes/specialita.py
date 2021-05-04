@@ -1,5 +1,3 @@
-from datetime import datetime
-
 class Specialita:
 	def __init__(self,_id,_descr,_categoria):
 		'''id: identificativo fidal

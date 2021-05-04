@@ -1,16 +1,16 @@
 from datetime import datetime
 
 class Atleta:
-	def __init__(self,_id,_descr,_data_nascita,_sesso):
+	def __init__(self,id,descr,data_nascita,sesso):
 		'''id: identificativo fidal
 			descr: nome e cognome
 			data nascita nel formato: gg/mm/aaaa
 			sesso: 'M' oppure 'F'
 		'''
-		self.id = _id
-		self.descr = _descr
-		self.data_nascita = datetime. strptime(_data_nascita, '%d/%m/%Y')
-		self.sesso = _sesso
+		self.id = id
+		self.descr = descr
+		self.data_nascita = datetime. strptime(data_nascita, '%d/%m/%Y')
+		self.sesso = sesso
 
 	def categoria(self):
 		''' Ritorna la categoria dell\'atleta basandosi sulla data di nascita ed il sesso'''
