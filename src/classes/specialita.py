@@ -9,3 +9,6 @@ class Specialita:
 		self.id = _id
 		self.descr = _descr
 		self.categoria = _categoria
+
+	def __repr__(self):
+		return "{} {}".format(self.descr, self.categoria)
