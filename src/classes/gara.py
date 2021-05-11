@@ -1,8 +1,10 @@
 from datetime import datetime
+from typing import Sequence
+from classes.atleta import Atleta
 from classes.risultato import Risultato,Specialita
 
 class Gara:
-	def __init__(self,id,descr,data,luogo,fl_x_cds=False,lista_specialita=[],lista_risultati=[]):
+	def __init__(self,id:str,descr:str,data:str,luogo:str,fl_x_cds=False,lista_specialita:Sequence[Specialita]=[],lista_risultati:Sequence[Risultato]=[]):
 		'''id: identificativo fidal
 			descr: nome manifestazione
 			data nascita nel formato: gg/mm/aaaa
@@ -15,11 +17,11 @@ class Gara:
 		self.luogo = luogo
 		self.fl_x_cds = fl_x_cds
 
-		self.lista_specialita = []
+		self.lista_specialita:Sequence[Specialita] = []
 		for specialita in lista_specialita:
 			self.lista_specialita.append(Specialita(**specialita))
 
-		self.lista_risultati = []
+		self.lista_risultati:Sequence[Risultato] = []
 		for risultato in lista_risultati:
 			self.lista_risultati.append(Risultato(**risultato))
 	
@@ -34,21 +36,21 @@ class Gara:
 			ret_string += "\t" + risultato.__repr__() + "\n"
 		return ret_string
 
-	def aggiungi_iscritto(self,atleta,specialita):
-		risultato = Risultato(atleta, specialita, None, None)
-		self.lista_risultati.append(risultato)
+	def aggiungi_iscritto(self,atleta:Atleta,specialita:Specialita):
+		self.lista_risultati.append(Risultato(atleta, specialita, None, None))
 	
-	def lista_iscritti(self):
+	def lista_iscritti(self) -> Sequence[Risultato]:
 		return self.lista_risultati
 
-	def aggiungi_specialità(self,specialita):
+	def aggiungi_specialità(self,specialita:Specialita):
 		self.lista_specialita.append(specialita)
 
-	def aggiungi_risultato(self,atleta,specialita,prestazione,punteggio=None):
+	def aggiungi_risultato(self,atleta:Atleta,specialita:Specialita,prestazione:str,punteggio:int=None) -> bool:
 		for risultato in self.lista_risultati:
 			# Cerco il risultato che mi serve
 			if (risultato.atleta.id == atleta.id and risultato.specialita.id == specialita.id):
 				# quando lo trovo aggiorno la lista ed interrompo la ricerca
 				risultato.prestazione = prestazione
 				risultato.punteggio = punteggio
-				break
+				return True
+		return False

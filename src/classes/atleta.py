@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Atleta:
-	def __init__(self,id,descr,data_nascita,sesso):
+	def __init__(self,id:str,descr:str,data_nascita:str,sesso:str):
 		'''id: identificativo fidal
 			descr: nome e cognome
 			data nascita nel formato: gg/mm/aaaa
@@ -11,8 +11,10 @@ class Atleta:
 		self.descr = descr
 		self.data_nascita = datetime. strptime(data_nascita, '%d/%m/%Y')
 		self.sesso = sesso
+		self.totale_gare = 0
+		self.totale_staffette = 0
 
-	def categoria(self):
+	def categoria(self) -> str:
 		''' Ritorna la categoria dell\'atleta basandosi sulla data di nascita ed il sesso'''
 		anno_nascita = self.data_nascita.year
 		anno_attuale = datetime.now().year
