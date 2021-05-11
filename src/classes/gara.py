@@ -2,7 +2,7 @@ from datetime import datetime
 from classes.risultato import Risultato,Specialita
 
 class Gara:
-	def __init__(self,id,descr,data,luogo,fl_x_cds=False):
+	def __init__(self,id,descr,data,luogo,fl_x_cds=False,lista_specialita=[],lista_risultati=[]):
 		'''id: identificativo fidal
 			descr: nome manifestazione
 			data nascita nel formato: gg/mm/aaaa
@@ -14,9 +14,14 @@ class Gara:
 		self.data = datetime. strptime(data, '%d/%m/%Y')
 		self.luogo = luogo
 		self.fl_x_cds = fl_x_cds
-		self.lista_specialita = []
-		self.lista_risultati = []
 
+		self.lista_specialita = []
+		for specialita in lista_specialita:
+			self.lista_specialita.append(Specialita(**specialita))
+
+		self.lista_risultati = []
+		for risultato in lista_risultati:
+			self.lista_risultati.append(Risultato(**risultato))
 	
 	def __repr__(self):
 		ret_string = "id: {}\ndescrizione: {}\nluogo: {}\ndata: {}\n".format(self.id,self.descr,self.luogo,self.data)
@@ -30,11 +35,11 @@ class Gara:
 		return ret_string
 
 	def aggiungi_iscritto(self,atleta,specialita):
-		risultato = Risultato(atleta, specialita, self, None, None)
+		risultato = Risultato(atleta, specialita, None, None)
 		self.lista_risultati.append(risultato)
 	
 	def lista_iscritti(self):
-		return lista_risultati
+		return self.lista_risultati
 
 	def aggiungi_specialità(self,specialita):
 		self.lista_specialita.append(specialita)

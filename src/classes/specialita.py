@@ -1,12 +1,12 @@
 class Specialita:
-	def __init__(self,_id,_descr,_categoria):
+	def __init__(self,id,descr,categoria):
 		'''id: identificativo fidal
 			descr: nome specialità
 			categoria: codice categoria fidal (ES: 'JF' per junior donne)
 		'''
-		self.id = _id
-		self.descr = _descr
-		self.categoria = _categoria
+		self.id = id
+		self.descr = descr
+		self.categoria = categoria
 
 	def __repr__(self):
 		return "{} {}".format(self.descr, self.categoria)

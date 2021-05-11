@@ -1,12 +1,12 @@
 from classes.specialita import Specialita
+from classes.atleta import Atleta
 
 class Risultato:
-	def __init__(self,atleta,specialita,gara,prestazione=None,punteggio=None):
+	def __init__(self,atleta,specialita,prestazione=None,punteggio=None):
 		'''Se il dato mi arriva da db sono gli id, quindi sono degli interi
 		 Se il dato è inserito manualmente sono degli oggetti'''
-		self.atleta = atleta
-		self.specialita = specialita
-		self.gara = gara
+		self.atleta = Atleta(**atleta)
+		self.specialita = Specialita(**specialita)
 		self.prestazione = prestazione
 		self.punteggio = punteggio
 
