@@ -1,9 +1,9 @@
-from datetime import datetime
+from typing import Sequence
 from classes.atleta import Atleta
 
 class Lista_Atleti:
 	def __init__(self):
-		self.lista_atleti = []
+		self.lista_atleti:Sequence[Atleta] = []
 
 	def __repr__(self):
 		ret_string = ""
@@ -14,3 +14,6 @@ class Lista_Atleti:
 	def aggiungi_atleta(self,atleta:Atleta) -> Atleta:
 		self.lista_atleti.append(Atleta(**atleta))
 		return atleta
+	
+	def get_atleti(self) -> Sequence[Atleta]:
+		return self.lista_atleti
