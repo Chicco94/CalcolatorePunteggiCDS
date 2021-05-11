@@ -11,4 +11,4 @@ class Risultato:
 		self.punteggio:int = punteggio
 
 	def __repr__(self):
-		return "{0: <30} {1: <20} {2: <10} {3: <10}".format(self.atleta.descr, self.specialita.descr, self.prestazione if self.prestazione else "", self.punteggio if self.punteggio else "")
+		return "{0: <30} {1: <30} {2: <10} {3: <10}".format(self.atleta.descr, self.specialita.descr, self.prestazione if self.prestazione else "", self.punteggio if self.punteggio else "")
