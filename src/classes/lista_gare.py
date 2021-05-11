@@ -37,6 +37,7 @@ class Lista_Gare:
 		return res_dict
 
 	def get_mappa_atleti_risultati_migliori(self,lista_atleti:Lista_Atleti)->Dict:
+		'''Ritorna una mappa atleta:[lista dei migliori risultati dell'atleta]'''
 		temp_dict = self.get_mappa_atleti_risultati(lista_atleti)
 		res_dict = {}
 		for atleta, lista_risultati in temp_dict.items():
@@ -48,4 +49,17 @@ class Lista_Gare:
 						is_best = False
 				if (is_best):
 					res_dict[atleta].append(best_risultato)
+		return res_dict
+
+	def get_mappa_specialita_risultati_di_atleti(self,lista_atleti:Lista_Atleti)->Dict:
+		'''Ritorna una mappa specialità:[lista dei migliori risultati per quella specialità di ogni atleta]'''
+		temp_dict = self.get_mappa_atleti_risultati_migliori(lista_atleti)
+		res_dict = {}
+		for _, lista_risultati in temp_dict.items(): 
+			for risultato in lista_risultati:
+				specialita:Specialita = risultato.specialita
+				if specialita.descr in res_dict:
+					res_dict[specialita.descr].append(risultato)
+				else:
+					res_dict[specialita.descr] = [risultato]
 		return res_dict
