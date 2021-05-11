@@ -1,93 +1,93 @@
 {
 	"atleti": {
 	  "1": {
-		"id": "ED00118",
+		"id": "ED000118",
 		"descr": "Enrico Cominato",
 		"data_nascita": "07/02/1994",
 		"sesso": "M"
 	  },
 	  "2": {
-		"id": "ED00118",
+		"id": "ED001743",
 		"descr": "Matteo Grigolato",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "01/04/2002",
 		"sesso": "M"
 	  },
 	  "3": {
-		"id": "ED00118",
+		"id": "ED001249",
 		"descr": "Said El Bouhali",
-		"data_nascita": "07/02/1982",
+		"data_nascita": "15/05/1982",
 		"sesso": "M"
 	  },
 	  "4": {
-		"id": "ED00118",
+		"id": "ED001584",
 		"descr": "Andrei Neagu",
-		"data_nascita": "07/02/2003",
+		"data_nascita": "01/02/2003",
 		"sesso": "M"
 	  },
 	  "5": {
-		"id": "ED00118",
+		"id": "ED002698",
 		"descr": "Pietro Roccato",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "20/10/2003",
 		"sesso": "M"
 	  },
 	  "6": {
-		"id": "ED00118",
+		"id": "ED002697",
 		"descr": "Giulio Roccato",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "29/11/2005",
 		"sesso": "M"
 	  },
 	  "7": {
-		"id": "ED00118",
+		"id": "ED001869",
 		"descr": "Christian Capato",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "14/02/2005",
 		"sesso": "M"
 	  },
 	  "8": {
-		"id": "ED00118",
+		"id": "ED001534",
 		"descr": "Lorenzo Zullato",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "20/10/2004",
 		"sesso": "M"
 	  },
 	  "9": {
-		"id": "ED00118",
+		"id": "ED002113",
 		"descr": "Valentino Bellinazzi",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "18/07/2004",
 		"sesso": "M"
 	  },
 	  "10": {
-		"id": "ED00118",
+		"id": "ED000791",
 		"descr": "Valerio Iala",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "20/10/1990",
 		"sesso": "M"
 	  },
 	  "11": {
-		"id": "ED00118",
+		"id": "EA0033984",
 		"descr": "Massimo Bernecoli",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "03/11/1980",
 		"sesso": "M"
 	  },
 	  "12": {
-		"id": "ED00118",
+		"id": "ED001332",
 		"descr": "Gioele Vitali",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "11/06/2005",
 		"sesso": "M"
 	  },
 	  "13": {
-		"id": "ED00118",
-		"descr": "Magagnoli",
-		"data_nascita": "07/02/2002",
+		"id": "GA001129",
+		"descr": "Rudy Magagnoli",
+		"data_nascita": "26/11/1977",
 		"sesso": "M"
 	  },
 	  "14": {
-		"id": "ED00118",
+		"id": "ED002107",
 		"descr": "Paolo Dazzani",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "26/06/1966",
 		"sesso": "M"
 	  },
 	  "15": {
-		"id": "ED00118",
+		"id": "ED00946",
 		"descr": "Marcello Merlin",
-		"data_nascita": "07/02/2002",
+		"data_nascita": "10/10/1999",
 		"sesso": "M"
 	  }
 	},
@@ -97,32 +97,79 @@
 		"descr": "2 MEETING REGIONALE 1^ Giornata",
 		"data": "08/05/2021",
 		"luogo": "Vicenza",
-		"lista_specialita": [{
-			"1": {
-				"id": 1,
-				"descr": "100 metri",
-				"categoria": "SM"
+		"fl_x_cds": true,
+		"lista_specialita": [],
+		"lista_risultati": [
+			{
+				"atleta": {
+					"id": "ED00118",
+					"descr": "Enrico Cominato",
+					"data_nascita": "07/02/1994",
+					"sesso": "M"
+				},
+				"specialita":{
+					"id": 1,
+					"descr": "100 metri",
+					"categoria": "SM"
+				}
+				,"prestazione":"13.10"
+				,"punteggio":150
 			},
-			"2": {
-			  "id": 3,
-			  "descr": "400 metri",
-			  "categoria": "SM"
+			{
+				"atleta": {
+					"id": "ED00118",
+					"descr": "Enrico Cominato",
+					"data_nascita": "07/02/1994",
+					"sesso": "M"
+				},
+				"specialita":{
+					"id": 8,
+					"descr": "400 metri ostacoli",
+					"categoria": "SM"
+				}
+				,"prestazione":"1:09.89"
+				,"punteggio":400
 			},
-			"3": {
-				"id": 5,
-				"descr": "1500 metri",
-				"categoria": "SM"
-			}
-		}],
-		"lista_risultati": []
+			{
+				"atleta": {
+					"id": "ED00119",
+					"descr": "Matteo Grigolato",
+					"data_nascita": "07/02/2002",
+					"sesso": "M"
+				},
+				"specialita":{
+					"id": 1,
+					"descr": "100 metri",
+					"categoria": "SM"
+				}
+				,"prestazione":"11.90"
+				,"punteggio":250}
+		]
 	  },
 	  "2": {
 		"id": 2,
 		"descr": "2 MEETING REGIONALE 2^ Giornata",
 		"data": "09/05/2021",
 		"luogo": "Vicenza",
+		"fl_x_cds": true,
 		"lista_specialita": [],
-		"lista_risultati": []
+		"lista_risultati": [
+			{
+				"atleta": {
+					"id": "ED00118",
+					"descr": "Enrico Cominato",
+					"data_nascita": "07/02/1994",
+					"sesso": "M"
+				},
+				"specialita":{
+					"id": 1,
+					"descr": "100 metri",
+					"categoria": "SM"
+				}
+				,"prestazione":"13.10"
+				,"punteggio":180
+			}
+		]
 	  }
 	},
 	"specialita": {
