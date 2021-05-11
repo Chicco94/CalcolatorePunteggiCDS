@@ -13,6 +13,9 @@ class Atleta:
 		self.sesso = sesso
 		self.totale_gare = 0
 		self.totale_staffette = 0
+	
+	def pieno(self):
+		return self.totale_staffette + self.totale_gare >=3
 
 	def categoria(self) -> str:
 		''' Ritorna la categoria dell\'atleta basandosi sulla data di nascita ed il sesso'''
