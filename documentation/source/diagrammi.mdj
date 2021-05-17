@@ -3588,7 +3588,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkSNORYZPiw="
 							},
-							"name": "id"
+							"name": "id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3596,7 +3597,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkSNORYZPiw="
 							},
-							"name": "nome"
+							"name": "nome",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3604,7 +3606,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkSNORYZPiw="
 							},
-							"name": "data_nascita"
+							"name": "data_nascita",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3724,7 +3727,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "id"
+							"name": "id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3732,7 +3736,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "Luogo"
+							"name": "Luogo",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3740,7 +3745,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "Data"
+							"name": "Data",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3748,7 +3754,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "Descrizione"
+							"name": "Descrizione",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3756,7 +3763,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "Lista_specialità"
+							"name": "Lista_specialità",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3764,7 +3772,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "Lista_iscritti"
+							"name": "Lista_iscritti",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3772,7 +3781,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NkUBCRaBxeg="
 							},
-							"name": "Lista_risultati"
+							"name": "Lista_risultati",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3992,7 +4002,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlNmDhn9EeU="
 							},
-							"name": "id"
+							"name": "id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4000,7 +4011,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlNmDhn9EeU="
 							},
-							"name": "descrizione"
+							"name": "descrizione",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4008,7 +4020,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlNmDhn9EeU="
 							},
-							"name": "categoria"
+							"name": "categoria",
+							"type": ""
 						}
 					]
 				},
@@ -4064,7 +4077,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlvEph8v/8w="
 							},
-							"name": "atleta"
+							"name": "atleta",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4072,7 +4086,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlvEph8v/8w="
 							},
-							"name": "specialità"
+							"name": "specialità",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4080,7 +4095,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlvEph8v/8w="
 							},
-							"name": "gara"
+							"name": "gara",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4088,7 +4104,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlvEph8v/8w="
 							},
-							"name": "prestazione"
+							"name": "prestazione",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4096,7 +4113,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5NlvEph8v/8w="
 							},
-							"name": "punteggio"
+							"name": "punteggio",
+							"type": ""
 						}
 					]
 				}
@@ -5417,6 +5435,1314 @@
 							"length": 0
 						}
 					]
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF5WkkJP9hSKpE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF5WkkJP9hTI00=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WkkgWNhuqeQ=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WkkgWNhsrp0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WkkgWNhveMY=",
+									"_parent": {
+										"$ref": "AAAAAAF5WkkgWNhuqeQ="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 82,
+									"width": 57.10986328125,
+									"height": 65,
+									"text": "Seleziono le gare con un singolo punteggio",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 72,
+							"width": 77.10986328125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WkkgWNhveMY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WknBrth37Sw=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WknBrth1l0c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WknBrth4nBE=",
+									"_parent": {
+										"$ref": "AAAAAAF5WknBrth37Sw="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 184,
+									"width": 64.30810546875,
+									"height": 65,
+									"text": "Assegno alla formazione finale quei punteggi",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 174,
+							"width": 84.30810546875,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WknBrth4nBE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WknB0dh/8c8=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WknB0Nh99vA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WknB0tiAY6Q=",
+									"_parent": {
+										"$ref": "AAAAAAF5WknB0dh/8c8="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WknB0Nh99vA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 331,
+									"top": 158,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WknB0dh/8c8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WknBrth37Sw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WkkgWNhuqeQ="
+							},
+							"lineStyle": 2,
+							"points": "317:156;317:174",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WknB0tiAY6Q="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WkoWHdiJA2M=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WkoWHdiHhB4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WkoWHdiKXWQ=",
+									"_parent": {
+										"$ref": "AAAAAAF5WkoWHdiJA2M="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 314,
+									"width": 65.76806640625,
+									"height": 52,
+									"text": "Tolgo 1 gara da ogni atleta selezionato",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 304,
+							"width": 85.76806640625,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WkoWHdiKXWQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WkoWVdiRpBU=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WkoWT9iPnnc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WkoWVdiS8yo=",
+									"_parent": {
+										"$ref": "AAAAAAF5WkoWVdiRpBU="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WkoWT9iPnnc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 332,
+									"top": 280,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WkoWVdiRpBU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WkoWHdiJA2M="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WknBrth37Sw="
+							},
+							"lineStyle": 2,
+							"points": "318:271;318:304",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WkoWVdiS8yo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WoAwhtjTgT4=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoAwhdjRYBc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoAwhtjUxQQ=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoAwhtjTgT4="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 468,
+									"width": 57.80810546875,
+									"height": 39,
+									"text": "Per ogni gara rimanente",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 458,
+							"width": 77.80810546875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoAwhtjUxQQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoAwpNjbNSI=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoAwpNjZZWA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoAwpNjcDAo=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoAwpNjbNSI="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoAwpNjZZWA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 334,
+									"top": 416,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoAwpNjbNSI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoAwhtjTgT4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WkoWHdiJA2M="
+							},
+							"lineStyle": 2,
+							"points": "320:388;320:458",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoAwpNjcDAo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WoCbidjlrJk=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoCbidjj/2E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoCbidjmKTE=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoCbidjlrJk="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 586,
+									"width": 54.92626953125,
+									"height": 65,
+									"text": "seleziono il miglior risultato tra le specialità",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 576,
+							"width": 74.92626953125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoCbidjmKTE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoCbrNjtzS4=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoCbq9jr+sI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoCbrNju95s=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoCbrNjtzS4="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoCbq9jr+sI="
+									},
+									"font": "Arial;13;0",
+									"left": 303,
+									"top": 535,
+									"width": 12.28271484375,
+									"height": 13,
+									"alpha": -2.6292039061518686,
+									"distance": 18.35755975068582,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoCbrNjtzS4="
+									},
+									"edgePosition": 1,
+									"text": "SI"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoCbidjlrJk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoOqHdl5ujY="
+							},
+							"lineStyle": 2,
+							"points": "552:558;318:558;318:576",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoCbrNju95s="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WoDXwNj4SnI=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoDXv9j26FA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoDXwNj5b1g=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoDXwNj4SnI="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 802,
+									"width": 65.76806640625,
+									"height": 52,
+									"text": "Tolgo 1 gara dall'atleta selezionato",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 792,
+							"width": 85.76806640625,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoDXwNj5b1g="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoDX49kAgcs=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoDX49j+T5U="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoDX49kBxUw=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoDX49kAgcs="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoDX49j+T5U="
+									},
+									"font": "Arial;13;0",
+									"left": 151,
+									"top": 687,
+									"width": 12.28271484375,
+									"height": 13,
+									"alpha": -2.226492449783824,
+									"distance": 16.401219466856727,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoDX49kAgcs="
+									},
+									"edgePosition": 1,
+									"text": "SI"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoDXwNj4SnI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoFLmdkL8SQ="
+							},
+							"lineStyle": 2,
+							"points": "256:704;170:704;170:792",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoDX49kBxUw="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF5WoFLmdkL8SQ=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoFLmNkJeQM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoFLmdkMf1w=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoFLmdkL8SQ="
+									},
+									"font": "Arial;13;0",
+									"left": 284.542236328125,
+									"top": 693,
+									"width": 57.08447265625,
+									"height": 26,
+									"text": "L'atleta è libero?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 256,
+							"top": 680,
+							"width": 114.1689453125,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoFLmdkMf1w="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoGEEtkVmjI=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoGEEtkTW58="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoGEEtkWTLM=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoGEEtkVmjI="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoGEEtkTW58="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 330,
+									"top": 663,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoGEEtkVmjI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoFLmdkL8SQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoCbidjlrJk="
+							},
+							"lineStyle": 2,
+							"points": "316:660;316:680",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoGEEtkWTLM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WoHxBtkkzkw=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoHxBtki2fQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoHxB9klxcc=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoHxBtkkzkw="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 943,
+									"width": 64.30810546875,
+									"height": 65,
+									"text": "Assegno alla formazione il punteggio",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 933,
+							"width": 84.30810546875,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoHxB9klxcc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoHxJNks/Jk=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoHxJNkqyXA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoHxJNktWRQ=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoHxJNks/Jk="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoHxJNkqyXA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 182,
+									"top": 891,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoHxJNks/Jk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoHxBtkkzkw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoDXwNj4SnI="
+							},
+							"lineStyle": 2,
+							"points": "168:863;168:933",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoHxJNktWRQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WoIwqtk3//4=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoIwqtk1xLs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoIwqtk4zaE=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoIwqtk3//4="
+									},
+									"font": "Arial;13;0",
+									"left": 418,
+									"top": 810,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Rimuovo il risultato",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 408,
+							"top": 800,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoIwqtk4zaE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoIwy9k/82w=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoIwytk9U3g="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoIwy9lAuxE=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoIwy9k/82w="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoIwytk9U3g="
+									},
+									"font": "Arial;13;0",
+									"left": 462,
+									"top": 697,
+									"width": 19.5,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoIwy9k/82w="
+									},
+									"edgePosition": 1,
+									"text": "NO"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoIwqtk3//4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoFLmdkL8SQ="
+							},
+							"lineStyle": 2,
+							"points": "369:704;456:704;456:800",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoIwy9lAuxE="
+							}
+						},
+						{
+							"_type": "FCConnectorView",
+							"_id": "AAAAAAF5WoL8W9lOtDc=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoL8W9lMBTI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoL8W9lPtQQ=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoL8W9lOtDc="
+									},
+									"font": "Arial;13;0",
+									"left": 287.5,
+									"top": 1063.5,
+									"width": 15,
+									"height": 15,
+									"text": "C1",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 1056,
+							"width": 30,
+							"height": 30,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoL8W9lPtQQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoMLYtlWvv0=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoMLYtlUE5A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoMLYtlXw58=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoMLYtlWvv0="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoMLYtlUE5A="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 160,
+									"top": 1043,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoMLYtlWvv0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoL8W9lOtDc="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoHxBtkkzkw="
+							},
+							"lineStyle": 2,
+							"points": "160:1017;160:1064;280:1064",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoMLYtlXw58="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoMXgdlffvU=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoMXgdldp8U="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoMXgdlgcJY=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoMXgdlffvU="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoMXgdldp8U="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 447,
+									"top": 1073,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoMXgdlffvU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoL8W9lOtDc="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoIwqtk3//4="
+							},
+							"lineStyle": 2,
+							"points": "448:858;448:1064;309:1064",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoMXgdlgcJY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoNTH9lsIHg=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoNTH9lqiq8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoNTH9ltdqQ=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoNTH9lsIHg="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoNTH9lqiq8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 49,
+									"top": 769,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoNTH9lsIHg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoAwhtjTgT4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoL8W9lOtDc="
+							},
+							"lineStyle": 2,
+							"points": "296:1085;296:1136;64:1136;64:416;320:416;320:458",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoNTH9ltdqQ="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF5WoOqHdl5ujY=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoOqHdl3C/g="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoOqHdl61f4=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoOqHdl5ujY="
+									},
+									"font": "Arial;13;0",
+									"left": 580.542236328125,
+									"top": 539.5,
+									"width": 57.08447265625,
+									"height": 39,
+									"text": "ho gare da coprire?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 520,
+							"width": 114.1689453125,
+							"height": 78,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoOqHdl61f4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoOqQ9mB7p4=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoOqQ9l/9Hw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoOqQ9mCF+Q=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoOqQ9mB7p4="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoOqQ9l/9Hw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 622,
+									"top": 487,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoOqQ9mB7p4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoOqHdl5ujY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoAwhtjTgT4="
+							},
+							"lineStyle": 2,
+							"points": "357:494;608:494;608:520",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoOqQ9mCF+Q="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF5WoTLF9mkloU=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoTLF9mi6fk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5WoTLF9ml1Qw=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoTLF9mkloU="
+									},
+									"font": "Arial;13;0",
+									"left": 746,
+									"top": 650,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Sommo i punteggi ottenuti",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 736,
+							"top": 640,
+							"width": 74.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoTLF9ml1Qw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5WoTLStmsJQ0=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkJP9hTI00="
+							},
+							"model": {
+								"$ref": "AAAAAAF5WoTLStmqoEQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5WoTLStmt+lI=",
+									"_parent": {
+										"$ref": "AAAAAAF5WoTLStmsJQ0="
+									},
+									"model": {
+										"$ref": "AAAAAAF5WoTLStmqoEQ="
+									},
+									"font": "Arial;13;0",
+									"left": 777,
+									"top": 553,
+									"width": 19.5,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5WoTLStmsJQ0="
+									},
+									"edgePosition": 1,
+									"text": "NO"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5WoTLF9mkloU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5WoOqHdl5ujY="
+							},
+							"lineStyle": 2,
+							"points": "665:560;772:560;772:640",
+							"nameLabel": {
+								"$ref": "AAAAAAF5WoTLStmt+lI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WkkgWNhsrp0=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Seleziono le gare con un singolo punteggio",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WknB0Nh99vA=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkkgWNhsrp0="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WkkgWNhsrp0="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WknBrth1l0c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WknBrth1l0c=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Assegno alla formazione finale quei punteggi",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WkoWT9iPnnc=",
+							"_parent": {
+								"$ref": "AAAAAAF5WknBrth1l0c="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WknBrth1l0c="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WkoWHdiHhB4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WkoWHdiHhB4=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Tolgo 1 gara da ogni atleta selezionato",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoAwpNjZZWA=",
+							"_parent": {
+								"$ref": "AAAAAAF5WkoWHdiHhB4="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WkoWHdiHhB4="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoAwhdjRYBc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WoAwhdjRYBc=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Per ogni gara rimanente",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoCbq9jr+sI=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoAwhdjRYBc="
+							},
+							"name": "SI",
+							"source": {
+								"$ref": "AAAAAAF5WoOqHdl3C/g="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoCbidjj/2E="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoOqQ9l/9Hw=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoAwhdjRYBc="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WoAwhdjRYBc="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoOqHdl3C/g="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WoCbidjj/2E=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "seleziono il miglior risultato tra le specialità",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoDX49j+T5U=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoCbidjj/2E="
+							},
+							"name": "SI",
+							"source": {
+								"$ref": "AAAAAAF5WoFLmNkJeQM="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoDXv9j26FA="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoGEEtkTW58=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoCbidjj/2E="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WoCbidjj/2E="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoFLmNkJeQM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WoDXv9j26FA=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Tolgo 1 gara dall'atleta selezionato",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoHxJNkqyXA=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoDXv9j26FA="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WoDXv9j26FA="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoHxBtki2fQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF5WoFLmNkJeQM=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "L'atleta è libero?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoIwytk9U3g=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoFLmNkJeQM="
+							},
+							"name": "NO",
+							"source": {
+								"$ref": "AAAAAAF5WoFLmNkJeQM="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoIwqtk1xLs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WoHxBtki2fQ=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Assegno alla formazione il punteggio",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoMLYtlUE5A=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoHxBtki2fQ="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WoHxBtki2fQ="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoL8W9lMBTI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WoIwqtk1xLs=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Rimuovo il risultato",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoMXgdldp8U=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoIwqtk1xLs="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WoIwqtk1xLs="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoL8W9lMBTI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCConnector",
+					"_id": "AAAAAAF5WoL8W9lMBTI=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "C1",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoNTH9lqiq8=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoL8W9lMBTI="
+							},
+							"source": {
+								"$ref": "AAAAAAF5WoL8W9lMBTI="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoAwhdjRYBc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF5WoOqHdl3C/g=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "ho gare da coprire?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5WoTLStmqoEQ=",
+							"_parent": {
+								"$ref": "AAAAAAF5WoOqHdl3C/g="
+							},
+							"name": "NO",
+							"source": {
+								"$ref": "AAAAAAF5WoOqHdl3C/g="
+							},
+							"target": {
+								"$ref": "AAAAAAF5WoTLF9mi6fk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF5WoTLF9mi6fk=",
+					"_parent": {
+						"$ref": "AAAAAAF5WkkJP9hSKpE="
+					},
+					"name": "Sommo i punteggi ottenuti"
 				}
 			]
 		}
