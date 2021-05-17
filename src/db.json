@@ -502,6 +502,200 @@
 					,"punteggio":711
 				}
 			]
+		},
+		"5": {
+			"id": 5,
+			"descr": "3 MEETING REGIONALE ASSOLUTO",
+			"data": "16/05/2021",
+			"luogo": "Vicenza",
+			"fl_x_cds": true,
+			"lista_specialita": [],
+			"lista_risultati": [
+				{
+					"atleta": {
+						"id": "ED001743",
+						"descr": "Matteo Grigolato",
+						"data_nascita": "01/04/2002",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 2,
+						"descr": "200 metri",
+						"categoria": "SM"
+					}
+					,"prestazione":"23.69"
+					,"punteggio":652
+				},{
+					"atleta": {
+						"id": "ED002698",
+						"descr": "Pietro Roccato",
+						"data_nascita": "20/10/2003",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 2,
+						"descr": "200 metri",
+						"categoria": "SM"
+					}
+					,"prestazione":"24.26"
+					,"punteggio":589
+				},{
+					"atleta": {
+						"id": "ED001534",
+						"descr": "Lorenzo Zullato",
+						"data_nascita": "20/10/2004",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 2,
+						"descr": "200 metri",
+						"categoria": "SM"
+					}
+					,"prestazione":"26.53"
+					,"punteggio":365
+				},{
+					"atleta": {
+						"id": "ED000118",
+						"descr": "Enrico Cominato",
+						"data_nascita": "07/02/1994",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 7,
+						"descr": "110 metri ostacoli",
+						"categoria": "SM"
+					}
+					,"prestazione":"19.97"
+					,"punteggio":469
+				},{
+					"atleta": {
+						"id": "ED000118",
+						"descr": "Enrico Cominato",
+						"data_nascita": "07/02/1994",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 18,
+						"descr": "4x100",
+						"categoria": "SM",
+						"tipologia": "staffetta"
+					}
+					,"prestazione":"47.88"
+					,"punteggio":627
+				},{
+					"atleta": {
+						"id": "ED001534",
+						"descr": "Lorenzo Zullato",
+						"data_nascita": "20/10/2004",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 18,
+						"descr": "4x100",
+						"categoria": "SM",
+						"tipologia": "staffetta"
+					}
+					,"prestazione":"47.88"
+					,"punteggio":627
+				},{
+					"atleta": {
+						"id": "ED002698",
+						"descr": "Pietro Roccato",
+						"data_nascita": "20/10/2003",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 18,
+						"descr": "4x100",
+						"categoria": "SM",
+						"tipologia": "staffetta"
+					}
+					,"prestazione":"47.88"
+					,"punteggio":627
+				},{
+					"atleta": {
+						"id": "ED002697",
+						"descr": "Giulio Roccato",
+						"data_nascita": "29/11/2005",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 18,
+						"descr": "4x100",
+						"categoria": "SM",
+						"tipologia": "staffetta"
+					}
+					,"prestazione":"47.88"
+					,"punteggio":627
+				},{
+					"atleta": {
+						"id": "ED001869",
+						"descr": "Christian Capato",
+						"data_nascita": "14/02/2005",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 10,
+						"descr": "salto in alto",
+						"categoria": "SM"
+					},
+					"prestazione":"1.50",
+					"punteggio":475
+				},{
+					"atleta": {
+						"id": "EA0033984",
+						"descr": "Massimo Bernecoli",
+						"data_nascita": "03/11/1980",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 14,
+						"descr": "lancio del disco",
+						"categoria": "SM"
+					},
+					"prestazione":"27.67",
+					"punteggio":461
+				},{
+					"atleta": {
+						"id": "EA0033984",
+						"descr": "Massimo Bernecoli",
+						"data_nascita": "03/11/1980",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 16,
+						"descr": "lancio del martello",
+						"categoria": "SM"
+					},
+					"prestazione":"24.59",
+					"punteggio":331
+				}
+			]
+		},
+		"6": {
+			"id": 6,
+			"descr": "MEETING MASTER GOLD LOMBARDIA",
+			"data": "16/05/2021",
+			"luogo": "Mantova",
+			"fl_x_cds": true,
+			"lista_specialita": [],
+			"lista_risultati": [
+				{
+					"atleta": {
+						"id": "GA001129",
+						"descr": "Rudy Magagnoli",
+						"data_nascita": "26/11/1977",
+						"sesso": "M"
+					},
+					"specialita":{
+						"id": 6,
+						"descr": "5000 metri",
+						"categoria": "SM"
+					},
+					"prestazione":"15:52.94",
+					"punteggio":792
+				}
+			]
 		}
 	},
 	"specialita": {
